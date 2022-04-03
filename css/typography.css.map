@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,wBAAwB;CACpC;;AACD,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,0BAA0B;CACtC;;AACD,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,0BAA0B;EACrC,WAAW,EAAE,IAAI;CAClB;;AACD,AAAA,CAAC,CAAC;EACA,SAAS,EAAE,0BAA0B;CACtC",
+    "sources": [
+        "../styles/partials/typography.scss"
+    ],
+    "names": [],
+    "file": "typography.css"
+}

@@ -1,0 +1,52 @@
+form {
+  background-color: $grey-tps;
+  width: 60%;
+  margin: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-size: clamp(0.4rem, 2vw, 0.5rem);
+    color: $black;
+  }
+
+  input {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: clamp(0.4rem, 2vw, 0.5rem);
+  }
+
+  span {
+    margin-top: 0.2rem;
+    font-size: clamp(0.4rem, 2vw, 0.4rem);
+    color: rgb(255, 60, 0);
+  }
+  textarea {
+    font-size: clamp(0.4rem, 2vw, 0.5rem);
+    height: 5rem;
+  }
+
+  button {
+    background-color: $black;
+    border: 3px solid $black;
+    padding: 0.5rem 2rem;
+    color: $white;
+    align-self: center;
+    font-size: clamp(0.4rem, 2vw, 0.5rem);
+
+    &:hover {
+      cursor: pointer;
+      background-color: $white;
+      color: $black;
+      transition: 0.3s;
+    }
+  }
+}
+
+.form-input {
+  padding: 0.5rem;
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}

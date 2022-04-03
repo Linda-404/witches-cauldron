@@ -1,0 +1,18 @@
+h1 {
+  margin-top: 1rem;
+  font-size: clamp(0.5rem, 3vw, 1rem);
+}
+
+h2 {
+  font-size: clamp(0.4rem, 2vw, 0.5rem);
+}
+
+h3 {
+  font-size: clamp(0.3rem, 2vw, 0.4rem);
+  font-weight: bold;
+}
+
+p {
+  font-size: clamp(0.3rem, 2vw, 0.4rem);
+}
+/*# sourceMappingURL=typography.css.map */
