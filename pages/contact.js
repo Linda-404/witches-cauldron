@@ -1,7 +1,7 @@
 import Head from "../components/layout/Head";
 import Layout from "../components/layout/Layout";
 import Heading from "../components/Heading";
-import ContactForm from "../components/Contactform";
+import ContactForm from "../components/ContactForm";
 
 export default function contact() {
   return (
