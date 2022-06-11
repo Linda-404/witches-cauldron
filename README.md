@@ -14,8 +14,19 @@ This is a cocktail drink site. Users can choose cocktails from a list and get de
 - Next.js
 - Sass
 
+## Getting started
 
+1. Clone the repo: 
+`https://github.com/spoilralert/spoilralert.git`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Install independencies:
+`npm install`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Running
+
+To run the app, use the following command:
+`npm run start`
+
+## Contact
+
+[My Linkedin page](https://www.linkedin.com/in/linda-nilsson-8b82b01b2/)
