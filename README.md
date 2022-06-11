@@ -17,7 +17,7 @@ This is a cocktail drink site. Users can choose cocktails from a list and get de
 ## Getting started
 
 1. Clone the repo: 
-`https://github.com/spoilralert/spoilralert.git`
+`https://github.com/Linda-404/witches-cauldron.git`
 
 2. Install independencies:
 `npm install`
