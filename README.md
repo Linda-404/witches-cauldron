@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 # Witches cauldron
 
 This is a cocktail drink site. Users can choose cocktails from a list and get detailed information on ingredients and instructions.
+I built this as my course assignment for Javascript frameworks, in my studies in front-end development.
 
 ## Description
 
