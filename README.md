@@ -31,3 +31,7 @@ To run the app, use the following command:
 ## Contact
 
 [My Linkedin page](https://www.linkedin.com/in/linda-nilsson-8b82b01b2/)
+
+## Live site
+
+[Witches Cauldron page](https://witches-cauldron.netlify.app/)
