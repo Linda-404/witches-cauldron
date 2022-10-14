@@ -17,8 +17,8 @@ export default function Home(props) {
           <div>
             <Image
               src={Witch}
-              width="150"
-              height="300"
+              width="400"
+              height="800"
               alt="witch in cauldron"
               className="image"
             />
@@ -26,7 +26,9 @@ export default function Home(props) {
 
           <div>
             <Heading title="Witches cauldron" />
-            <p>-Choose your poison and get the party started!</p>
+            <div className="intro__tagline">
+              <p>-Choose your poison and get the party started!</p>
+            </div>
           </div>
         </div>
 
@@ -36,8 +38,8 @@ export default function Home(props) {
               <a key={index} href={`details/${drink.idDrink}`} className="card">
                 <Image
                   src={drink.strDrinkThumb}
-                  width="200"
-                  height="200"
+                  width="400"
+                  height="400"
                   alt="drink image"
                   className="image"
                 />
