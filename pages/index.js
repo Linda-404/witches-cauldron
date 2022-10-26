@@ -8,10 +8,9 @@ import Witch from "../public/images/witch.png";
 import { useState } from "react";
 
 export default function Home(props) {
-  // const [query, setQuery] = useState("");
   const [state, setState] = useState({
     query: "",
-    list: [],
+    list: props.drinks.drinks,
   });
 
   const handleChange = (e) => {
@@ -63,7 +62,6 @@ export default function Home(props) {
 
         <ul className="card-wrapper">
           {state.list.map((drink, index) => {
-            // return <li key={drink.strDrink}>{drink.strDrink}</li>;
             return (
               <a key={index} href={`details/${drink.idDrink}`} className="card">
                 <Image
