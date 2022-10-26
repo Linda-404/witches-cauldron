@@ -5,8 +5,28 @@ import { BASE_URL } from "../constants/api";
 import axios from "axios";
 import Image from "next/image";
 import Witch from "../public/images/witch.png";
+import { useState } from "react";
 
 export default function Home(props) {
+  // const [query, setQuery] = useState("");
+  const [state, setState] = useState({
+    query: "",
+    list: [],
+  });
+
+  const handleChange = (e) => {
+    const results = props.drinks.drinks.filter((drink) => {
+      if (e.target.value === "") return props.drinks.drinks;
+      return drink.strDrink
+        .toLowerCase()
+        .includes(e.target.value.toLowerCase());
+    });
+    setState({
+      query: e.target.value,
+      list: results,
+    });
+  };
+
   console.log(props);
   return (
     <Layout>
@@ -32,7 +52,34 @@ export default function Home(props) {
           </div>
         </div>
 
-        <div className="card-wrapper">
+        <form>
+          <input
+            type="search"
+            value={state.query}
+            onChange={handleChange}
+            placeholder="search for drink.."
+          />
+        </form>
+
+        <ul className="card-wrapper">
+          {state.list.map((drink, index) => {
+            // return <li key={drink.strDrink}>{drink.strDrink}</li>;
+            return (
+              <a key={index} href={`details/${drink.idDrink}`} className="card">
+                <Image
+                  src={drink.strDrinkThumb}
+                  width="400"
+                  height="400"
+                  alt="drink image"
+                  className="image"
+                />
+                <h2>{drink.strDrink}</h2>
+              </a>
+            );
+          })}
+        </ul>
+
+        {/* <div className="card-wrapper">
           {props.drinks.drinks.map((drink, index) => {
             return (
               <a key={index} href={`details/${drink.idDrink}`} className="card">
@@ -47,7 +94,7 @@ export default function Home(props) {
               </a>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
