@@ -14,6 +14,11 @@
     }
   }
 
+  .card:hover {
+    filter: opacity(0%);
+    filter: brightness(100%);
+  }
+
   form {
     width: 80%;
   }

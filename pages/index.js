@@ -51,7 +51,7 @@ export default function Home(props) {
           </div>
         </div>
 
-        <form>
+        <form className="search__form">
           <input
             type="search"
             value={state.query}

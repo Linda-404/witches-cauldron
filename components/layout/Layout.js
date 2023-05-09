@@ -10,7 +10,9 @@ export default function Layout({ children }) {
 
   return (
     <>
-      <Nav />
+      <header>
+        <Nav />
+      </header>
 
       <div className="container">{children}</div>
     </>

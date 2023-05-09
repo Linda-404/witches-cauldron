@@ -20,11 +20,11 @@ export default function Nav() {
             Contact
           </Link>
         </li>
-        <li className={router.pathname == "/favorites" ? "active" : ""}>
+        {/* <li className={router.pathname == "/favorites" ? "active" : ""}>
           <Link href="/favorites" className="link">
             Favorites
           </Link>
-        </li>
+        </li> */}
         {/* {session && (
           <li className={router.pathname == "/admin" ? "active" : ""}>
             <Link href="/admin">Admin</Link>
